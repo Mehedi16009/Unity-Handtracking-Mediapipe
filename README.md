@@ -86,11 +86,23 @@ Show the version:
 pip show opencv-python
 ```
 ---
+
+## CVzone with MediaPipe Installation Process:
+🔧 Step 1: Install CVzone + MediaPipe
+```bash
+pip install cvzone mediapipe
+```
+🔧 Step 2: Verify install
+```bash
+pip show cvzone
+pip show mediapipe
+```
 ## Then apply the python file 
 ```bash
 test.py
 ```
-----
+---- 
+
 ##⚙️ Installation & Setup
 
 3. Unity Side (Receiver + Interaction)
