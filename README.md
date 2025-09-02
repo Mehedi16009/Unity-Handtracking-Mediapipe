@@ -61,18 +61,34 @@ Ubuntu 22.04+ ⚠️
 
 3. Python 3.10+ (recommended: 3.10.12)
 
-macOS: 
+macOS VSCode: 
+
+🔧 Step A: Create a virtual environment
+```bash
+python3 -m venv .venv
+```
+🔧 Step B: Activate it (macOS)
+```bash
+source .venv/bin/activate
+```
+🔧 Step C: Upgrade pip
+
+```bash
+python -m pip install --upgrade pip
+```
+🔧 Step D: Install CVzone & OpenCV
+
 ```bash 
-brew install python@3.10
+pip install cvzone opencv-python
 ```
-4. Virtual Environment + Dependencies
-   ```bash
-   python3 -m venv .venv
-source .venv/bin/activate   # (macOS/Linux)
-# .venv\Scripts\activate    # (Windows PowerShell)
+Show the version:
+```bash 
+pip show opencv-python
 ```
-pip install --upgrade pip
-pip install mediapipe==0.10.9 opencv-python==4.9.0.80 numpy==1.26.4
+---
+## Then apply the python file 
+```bash
+test.py
 ```
 ----
 ##⚙️ Installation & Setup
